@@ -80,7 +80,90 @@ button[type=""]{
 .third{
     background-color: black;
     color: white;
+    padding: 50px 0; 
 }
+.third > h3{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.third > p{
+    font-size: 20px;
+    font-weight: 500;
+    width: 65%;
+    text-align: center;
+    color:#D7D7D7;
+    margin: auto;
+}
+.third > div{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 30px 0 50px;;
+
+}
+div > h6 + p {
+    font-size: 20px;
+    font-weight: 500;
+    color:#D7D7D7;
+   
+}
+
+div > h6{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.third div > div{
+    width: 30%;
+  
+}
+.fourth{
+    padding-top: 0 40px ;
+
+}
+.fourth > h4{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: #373737;
+}
+.fourth > p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 50px;
+    color: #373737;
+}
+
+section > h5 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #373737;
+}
+section > p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 30px;
+}
+.d-flex {
+    padding: 0 80px;
+}
+.d-flex section{
+    width: 85%;
+   
+}
+ /* .fourth img {
+    width: 70%;
+
+ } */
+
+
+
 @media (max-width: 1200px) {
     .navbar-nav{
         gap: 0px;
@@ -96,7 +179,28 @@ button[type=""]{
         font-weight: 500;
         text-align: center;
         margin: 30px 0;
-    }    
+    }  
+    .third{
+        width: 100%;
+    }
+    .third > h3{
+        font-size: 24px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .third > div{
+        display: block;
+        margin: 0 30px 0 50px;    
+    }  
+    .third div > div{
+        width: 100%;
+      
+    }
+    .third > p{
+        width: 75%;
+        line-height: 40px;
+    }
+    
 }
 
 @media (Max-width: 576px) {
@@ -119,5 +223,26 @@ button[type=""]{
     button[type=""]{
         padding: 5px 13px;
     }
- 
+    .third > h3{
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .third > p{
+        font-size: 16px;
+        width: 80%;
+        line-height: 32px;
+    }
+    div > h6{
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 50px;
+    }
+    div > h6 + p {
+        font-size: 16px;
+        font-weight: 500;
+        color:#D7D7D7;
+       
+    }
 }
+ 
