@@ -121,6 +121,7 @@ div > h6{
 }
 .fourth{
     padding-top: 0 40px ;
+    margin: 50px 60px;
 
 }
 .fourth > h4{
@@ -150,18 +151,40 @@ section > p {
     color: #000000;
     line-height: 30px;
 }
-.d-flex {
-    padding: 0 80px;
-}
-.d-flex section{
-    width: 85%;
-   
-}
- /* .fourth img {
-    width: 70%;
 
- } */
+.fourth .container{
+    width: 35%;
+    margin-right: 100px;
+}
+.container h5{
+    font-size:24px ;
+    font-weight: 800;
+    margin-bottom: 15px;
+    margin-top: 80px;
+}
+.container p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+ .fourth img {
+   margin-top: 20px;
 
+ }
+ .final-button{
+    display: flex;
+    justify-content: center;
+    margin: 120px 0;
+  }
+ 
+ button[type="submit"]{
+    background-color: #6FC247;
+    color: white;
+    padding: 15px 30px;
+}
+
+  
+ 
 
 
 @media (max-width: 1200px) {
@@ -200,7 +223,56 @@ section > p {
         width: 75%;
         line-height: 40px;
     }
+    .fourth{
+        margin: 50px 30px;
+       }
+    .fourth img {
+        width: 50%;
     
+      }
+     
+ 
+    
+    }
+    
+    @media (Max-width: 768px ){
+       
+    .fourth .container{
+            width: 95%;
+            margin-right: 50px;
+            margin-left: 20px;
+        }
+    .fourth img {
+            width: 100%;
+    }
+    .fourth > h4{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .fourth > p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 32px;
+        width: 85%;
+        padding-bottom: 10px;
+      
+    }
+    .container h5{
+        font-size: 18px ;
+        font-weight: 800;
+        margin-bottom: 15px;
+        margin-top: 50px;
+    }
+    .container p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+    }        
+
+
+
+
+
 }
 
 @media (Max-width: 576px) {
